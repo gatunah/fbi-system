@@ -3,8 +3,15 @@ $(document).ready(function () {
     ev.preventDefault();
     const email = $("#email").val();
     const password = $("#password").val();
-    console.log(email, password);
-    logUsuario(email, password);
+
+    if(!email || !password){
+      toastAlert("Debes ingresar ambos valores");
+    }else{
+      //console.log(email, password);
+      logUsuario(email, password);
+    }
+
+    
 
   });
 });
