@@ -17,11 +17,11 @@
 ## Ejecución
 1. En el terminal del proyecto, ejecutar "node server".
 2. Realiza pruebas ingresando con los siguientes datos, de igual manera, estos se encuentran el datos/agentes.js:
-    **email:** 'who@fbi.com'
+   - **email:** 'who@fbi.com'
     **password:** 'me'
    
-    **email:** 'where@fbi.com'
+   - **email:** 'where@fbi.com'
     **password:** 'there'
 
-   **email:** 'how@fbi.com'
+   - **email:** 'how@fbi.com'
     **password:** 'exactly'
