@@ -2,12 +2,12 @@
 
 ## Características
 
-**JWT Authentication:** Tokens JWT para gestionar el acceso seguro a recursos restringidos.
-**Node.js y Express:** Para crear el servidor backend que maneja las solicitudes de autenticación y acceso.
-**Frontend con HTML y Bootstrap:** Desarrollo del frontend utilizando HTML para la estructura y Bootstrap para el diseño responsivo y los estilos.
-**Gestión de Sesiones:** Manejo de sesiones de usuario utilizando localStorage para almacenar y recuperar tokens JWT.
-**Manejo de Errores:** Implementación de manejo de errores frontend como en el backend.
-**Rutas Protegidas:** Configuración de rutas protegidas que requieren autenticación mediante JWT para acceder.
+- **JWT Authentication:** Tokens JWT para gestionar el acceso seguro a recursos restringidos.
+- **Node.js y Express:** Para crear el servidor backend que maneja las solicitudes de autenticación y acceso.
+- **Frontend con HTML y Bootstrap:** Desarrollo del frontend utilizando HTML para la estructura y Bootstrap para el diseño responsivo y los estilos.
+- **Gestión de Sesiones:** Manejo de sesiones de usuario utilizando localStorage para almacenar y recuperar tokens JWT.
+- **Manejo de Errores:** Implementación de manejo de errores frontend como en el backend.
+- **Rutas Protegidas:** Configuración de rutas protegidas que requieren autenticación mediante JWT para acceder.
 
 ## Instalación
 
