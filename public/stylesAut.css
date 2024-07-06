@@ -1,0 +1,86 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    padding: 20px;
+    border: 1px solid #0f0;
+    border-radius: 4px;
+    background-color: #111;
+    margin-bottom: 20px;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    color: #0f0;
+}
+
+.user-info p {
+    font-size: 16px;
+    color: #0f0;
+    margin-bottom: 10px;
+}
+
+.token-info {
+    padding: 10px;
+    background-color: #3b3838;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+}
+
+.token-info h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.token-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+.container{
+    border: 1px solid #0f0;
+}
+
+#p-token,h1,h3{
+    color: #0f0;
+}
+#toastContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+  }
+  
+  .toast {
+    min-width: 300px;
+    color: black;
+    background-color:  #0f0;
+  }

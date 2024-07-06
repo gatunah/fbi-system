@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: #222;
+}
+
+.navbar-brand,
+.nav-link, .card-title,
+.card-text {
+    color: #0f0 !important;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #0f0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #222;
+    padding: 20px 0;
+    color: #0f0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
